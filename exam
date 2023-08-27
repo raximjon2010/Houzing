@@ -1,0 +1,121 @@
+<!-- 1-Savol 
+1- inline css tasir qiladi.
+2-Internal css tasir qiladi
+3- External css tasir qiladi
+Eng birinchi bolib inline css tasir qiladi keyin Internal Css keyin External css tasir qiladi.
+External css ulangan linkni biz internal css pastiga qoysak bu birinchi bolib External ishlaydi.
+Agar biz qaysiga bolsa ham !important bersak Ana osha tasir qiladi.
+2-Savol
+Sementic elementlar Bu 
+|<header></header>  <aside></aside> <nav></nav> Mana shular sementic elementga misol bola oladi.
+3-savol
+Css O'lchov birliklari rem vs em, vw vs % Bularni farqi 
+rem bu htmlni default size 
+html{
+    font-size: 16px; => 1rem Bu 16pxga teng Biz buni kattaroq font-size qilsak ham boladi Masalan 32px qilsak bu 2 rem boladi
+} 
+em => Bu remga oxshaydi Faqat bu orab turuvchisiga nisbatan oladi Agar orab turuvchisi bolmasa htmlga nisbatan oladi.
+
+Vw-Bu brauzer ekaniga nisbatan joy oladi %(foiz esa orab turuvchisga nisbatan joy oladi)
+Bularni farqi Shunda
+4-savol 
+class va idni farqi class bu nuqta orqali olinadi biz class  bir nchta qiymat bersak boladi.
+id esa reshotka orqali olinadi bunga faqat bitta qiymat bersak boladi.
+Keyin yana bitta bularni farqi id classdan kuchli yaniy id birinchi tasir qiladi.
+5-savol
+display: inline; Bu block bolgan taglarni inline qilib beradi.
+display: block; bu block bolgan taglarni inline qilib berad.
+Bularni farqi shunda
+6-savol
+Visiblity:hidden;  bu masalan bitta kontainerni ochirsa usha ochirgani joyida turadi 
+Yani korinmaydi desak ham boladi.
+display: block; bu esa umuman bitta containerni ochirib yuboradi.
+Bularni farqi shunda
+7--savol
+<div class="center">
+    <h1>center</h1>
+</div>
+<style>
+display:flex;
+width: 100vw;
+height: 100vh;
+align-items: center;
+justfiy-content: center; => bu birinchi usuli
+
+text-align: center;
+margi-top: 50%; bu ikkinchi usuli
+
+marin: 50% 50% 0% 0%; bu uchinchi usuli
+
+</style>
+8-savol
+<a href="google.com" > bu bitta amal
+<a href="google.com" target="_blank" > bu ikkinchi amal
+9-savol
+Css grid- buni biz masalan veb saytni shablonlarni tuzib olishimiz mumkun
+display: flex;- bu esa containerlarni center, left, right, space-around, space-evenly va boshqa usu;lda style bersak
+boladi. bularni farqi shunda
+12-savol
+Bu tableda ishlatiladi Masaln table borderiga yana border qoshadi
+13-savol 
+Ha boladi Buning uchun css ishlatishmiz kerak 
+cssda: list-style-type: circle; qilsak boladi
+14-savol
+Bu text-align: justfiy; Masalan bitta container ichida text bolsa uni bosahlanishi ham tugashi ham bir qili tekislikda boladi
+15-savol
+Buni natijasi qandaydir rasm chiqadi bunga controls bermaguncha ishlamaydi
+16-savol
+select bu ozida oddiy option yasab beradi 
+datalist esa bu huddi youtubeni search qismini bossak bizga chiqaradigan recomendadsiyasiga 
+oxshagan chiqarib buni ishlatish uchun datalistga id beramiz inputga esa list beramiz buni ikkalasini qiymati bir 
+xil bolishi kerak 
+18-savol
+Ha boladi faqat overflow-x oqi boyicha boladi.
+19-savol
+Box moddalari bu har bir tagni ozini padding marginlari boladi shu box modal deyiladi
+box-sizing:border-box; Bu padding bergan vaqtimiz ozidan qoshimcha joy oladi Shuni ochirib quymoqchi bolsak
+box-sizing:border-box;
+20-savol
+text-decoration qabul qiladigan qiymatlar bu none va underline qiymatlarini qabul qiladi
+text-decoration: none;
+text-decoration: underline;
+22-savol 
+float: buni left right va hidden degan qiymatlari bor; 
+left- bu masalan bizda 1000ta text bolsa va bitta rasm bolsa ana osha rasmni textni chap tarafiga quymoqchi 
+bolsak ishlatamiz
+right - esa bu o'ng tarafga qoymoqchi bolsak ishlatamiz
+hidden: bu Default qiymati;
+23-savol
+justfiy-content: space-evenly; bu x oqi boyicha ishlatsak boladi
+justfiy-items: space-around; bu esa y oqi boyicha ishlatsak boladi.
+25-savol
+1fr deb biz widthni bersak bizga xuddi shu width 1ta 100 wtdthlik column boladi Shuni misol qilvosak boladi.
+27-savol 
+transform: rotate scale scew ; degan qiymatlari bor
+rotate bu nechidur gradusga aylantirib beradi.
+scale- Bu kattalashtirib beradi. buni default qiymati 1 boladi buni 2 qilsak 1 barobarga
+kotariladi. va 2 boladi
+scew- bu 3d harakatga keltirib beradi.
+28-savol
+hover bu ustiga olib borganimizda style bersak boladi.
+focus bu asosan inputlar bilan ishlaydi inputni bosganda style bersak boladi.
+29-savol
+Bunda faqat sal kattalashadi 1.200 desak boladi
+30-savol
+min-height - biz bu qachon kerak bolsa ishlatamiz masalan min-height 500pxdan tushib ketmasin deb quyishimiz mumkun
+32-savol 
+Transtion-bu bizga sekinlashtirib yoki tezlashtirb ishlatib beradi.
+buni animationlarda ishlatsak boladi.
+33-savol
+Bularni farqi gap bu flexbox xossalari bilan ishlaydi margin va paddinglar esa unday emas 
+farqi shunda chizmada esa displsy: flex; flex-direction: column; gap: 20px; qilib berilgan
+
+
+
+
+
+
+
+
+-->
+        

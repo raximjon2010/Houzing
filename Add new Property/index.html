@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Add New Property</title>
+</head>
+<body>
+    <header>
+        <div class="header__wrapper">
+          <img
+            src="/assets/icons/hamburger-menu.svg"
+            alt="hamburger-menu"
+            class="hamburger-menu"
+          />
+          <img src="/assets/icons/logo.svg" alt="logo" class="logo" />
+          <nav class="navigation">
+            <ul class="nav-items">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Properties</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <img src="/assets/icons/user.svg" alt="user" class="user" />
+          <div class="user-dropdown">
+            <ul class="user-dropdown__items">
+              <li class="user-dropdown__item">My Profile</li>
+              <li class="user-dropdown__item">My Properties</li>
+              <li class="user-dropdown__item">Favourites</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mobile-menu">
+          <img src="/assets/icons/close.svg" class="close-mobile-menu" />
+          <div class="mobile-menu__wrapper">
+            <nav class="mobile__navigation">
+              <ul class="mobile__nav-items">
+                <li class="mobile__nav-item">
+                  <a href="#" class="mobile__nav-link">Home</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="#" class="mobile__nav-link">Properties</a>
+                </li>
+                <li class="mobile__nav-item">
+                  <a href="#" class="mobile__nav-link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+  
+            <ul class="mobile__social-items">
+              <li class="mobile__social-item">
+                <img src="/assets/icons/facebook.svg" alt="facebook" />
+              </li>
+              <li class="mobile__social-item">
+                <img src="/assets/icons/twitter.svg" alt="twitter" />
+              </li>
+              <li class="mobile__social-item">
+                <img src="/assets/icons/instagram.svg" alt="instagram" />
+              </li>
+              <li class="mobile__social-item">
+                <img src="/assets/icons/linkedin.svg" alt="linkedin" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <section class="Add_new_property">
+        <div class="Add_new_property_wrapper_title">
+          <h4>Add new property</h4>
+        </div>
+        <div class="Add_new_property_wrapper">
+        <div class="Contact_information">
+          <p class="Contact_information_title">Contact information</p>
+          <div class="Contact_information_inpu_1">
+            <input type="text" placeholder="Property title*">
+            <input type="text" placeholder="Type">
+          </div>
+          <div class="Contact_information_inpu_2">
+            
+            <label for="Propert_description"><p>Property Description*</p></label>
+            <input id="Propert_description" type="text">
+          </div>
+        </div>
+        <div class="Additional">
+          <div class="Additional_wrapper">
+            <div class="Additional_wrapper_title">
+              <h4>Additional</h4>
+            </div>
+            <div class="Additional_wrapper_input_line1">
+              <input type="text" placeholder="Property ID">
+              <select name="" id="">
+                <option value="">Parent property</option>
+              </select>
+              <select name="" id="">
+                <option value="">Status</option>
+              </select>
+            </div>
+            <div class="Additional_wrapper_input_line1">
+              <input type="text" placeholder="Label">
+              <input type="text" placeholder="Material">
+              <input type="text" placeholder="Rooms">
+            </div>
+            <div class="Additional_wrapper_input_line1">
+              <input type="text" placeholder="Beds">
+              <input type="text" placeholder="Baths">
+              <input type="text" placeholder="Garages">
+            </div>
+            <div class="Additional_wrapper_input_line1">
+              <input type="text" placeholder="Year bulid">
+              <input type="text" placeholder="Home area (sqft)">
+              <input type="text" placeholder="Lot dimensions">
+            </div>
+            <div class="Additional_wrapper_input_line1">
+              <input type="text" placeholder="Lot area (sqft)">
+            </div>
+          </div>
+        </div>
+        <div class="Price">
+          <div class="Price_wrapper">
+            <div class="Price_wrapper_title">
+              <p>Price</p>
+            </div>
+            <div class="Price_wrapper_line">
+              <input type="text" placeholder="Price ($)">
+              <input type="text" placeholder="Price Prefix">
+            </div>
+
+            <div class="Price_wrapper_line">
+              <input type="text" placeholder="Price Suffix">
+              <input type="text" placeholder="Price Custom">
+            </div>
+          </div>
+        </div>
+        <div class="Location">
+          <div class="Location_wrapper">
+            <div class="Location_wrapper_title">
+              <p>Location</p>
+            </div>
+            <div class="Location_wrapper_line">
+              <input type="text" placeholder="Regions">
+              <input type="text" placeholder="Friendly address">
+            </div>
+            <div class="Location_wrapper_line2">
+              <input type="text" placeholder="Map location">
+            </div>
+            <div class="Location_wrapper_map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.6763451216266!2d65.88910787519126!3d39.970988382649445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f5201a0ba0347f9%3A0x91136efdcccdd810!2s53-maktab!5e0!3m2!1sru!2s!4v1691775414226!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="Location_wrapper_line">
+                <input type="text" placeholder="Latidude">
+                <input type="text" placeholder="Logtitude">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="Media">
+          <div class="Media_wrapper">
+            <div class="Media_wrapper_title">
+              <p>Media</p>
+            </div>
+            <div class="media_img">
+              <p>Featured image</p>
+            <div class="media_img_wrapper">
+            <div class="media_img_1"></div>
+            <div class="media_img_1"></div>
+            <div class="media_img_1"></div>
+            <div class="media_img_1"></div>
+            </div>
+              <button class="media_img_btn">Upload</button>
+            </div>
+
+            <div class="gallery_button">
+              <p>Gallery</p>
+              <button>Upload</button>
+            </div>
+            <div class="Attachment">
+              <div class="file_attachment">
+                <img src="./assets/file 1.svg" alt="file svg">
+                <p>test_property.pdf</p>
+              </div>
+              <div class="Attachment_button">
+              <button class="media_img_btn">Upload</button>
+              </div>
+            </div>
+            <div class="Attachment_input">
+              <input type="text" placeholder="Video link">
+              <input type="text" placeholder="Virtual tour">
+            </div>
+            
+          </div>
+        </div>
+        <div class="Amenities">
+          <div class="Amenities_wrapper">
+            <div class="Amenities_wrapper_title">
+              <p>Amenities</p>
+            </div>
+            <div class="checkbox">
+              <div>
+              <input type="checkbox">
+              <span>Air conditioning</span>
+              </div>
+              <div>
+                <input type="checkbox">
+                <span>Lawn</span>
+                </div>              <div>
+                  <input type="checkbox">
+                  <span>Dining Room</span>
+                  </div>              <div>
+                    <input type="checkbox">
+                    <span>Waterfront</span>
+                    </div>
+                  </div>
+                  <div class="checkbox">
+                    <div>
+                    <input type="checkbox">
+                    <span>Barbeque</span>
+                    </div>
+                    <div>
+                      <input type="checkbox">
+                      <span>Microwave</span>
+                      </div>              <div>
+                        <input type="checkbox">
+                        <span>Fireplace</span>
+                        </div>              <div>
+                          <input type="checkbox">
+                          <span>Parking</span>
+                          </div>
+                  </div>
+                  <div class="checkbox">
+                    <div>
+                    <input type="checkbox">
+                    <span>Dryer</span>
+                    </div>
+                    <div>
+                      <input type="checkbox">
+                      <span>Outdoor Shower</span>
+                      </div>              <div>
+                        <input type="checkbox">
+                        <span>Pets Allowed</span>
+                        </div>              <div>
+                          <input type="checkbox">
+                          <span>Doorman</span>
+                          </div>
+                  </div>
+
+                  <div class="checkbox">
+                    <div>
+                    <input type="checkbox">
+                    <span>Gym</span>
+                    </div>
+                    <div>
+                      <input type="checkbox">
+                      <span>Refrigerator</span>
+                      </div>              <div>
+                        <input type="checkbox">
+                        <span>Unit Washer/Dryer</span>
+                        </div>              <div>
+                          <input type="checkbox">
+                          <span>Central Heating</span>
+                          </div>
+                  </div>
+
+                  <div class="checkbox">
+                    <div>
+                    <input type="checkbox">
+                    <span>Laundry</span>
+                    </div>
+                    <div>
+                      <input type="checkbox">
+                      <span>Stunning views</span>
+                      </div>              <div>
+                        <input type="checkbox">
+                        <span>Onsite Parking</span>
+                        </div>              <div>
+                          <input type="checkbox">
+                          <span>Cleaning Service</span>
+                          </div>
+                  </div>
+          </div>
+        </div>
+        <div class="Select_Energy_class">
+          <div class="Select_Energy_class_wrapper">
+            <div class="Select_Energy_class_wrapper_title">
+              <p>Select Energy class</p>
+            </div>
+            <div class="Select_Energy_class_input">
+              <input type="text" placeholder="Energy class">
+              <input type="text" placeholder="Energy Index in kWh/m2a">
+            </div>
+          </div>
+        </div>
+        <div class="Save_button">
+          <button>Save</button>
+        </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- ----------------footer-start ------------------------------------------ -->
+
+      <footer class="footer-section">
+        <div class="footer-section-wrapper">
+         <div class="footer-section-wrapper-content-1">
+           <p class="Contact-us">Contact Us</p>
+           <div class="wrapper-content-1-pin">
+             <img src="/assets/icons/pin.svg" alt="pin" class="pin">
+             <p class="pin-text">329 Queensberry Street, North <br> Melbourne VIC 3051, Australia.</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <img src="/assets/icons/phone.svg" alt="phone" class="phone">
+             <p class="pin-text">123 456 7890</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <img src="/assets/icons/email 1.svg" alt="pin" class="pin">
+             <p class="pin-text">support@houzing.com</p>
+           </div>
+           <div class="wrapper-content-1-icon">
+             <img src="/assets/icons/facebook.svg" alt="facebook icon">
+             <img src="/assets/icons/twitter.svg" alt="twitter icon">
+             <img src="/assets/icons/instagram.svg" alt="instagram icon">
+             <img src="/assets/icons/linkedin.svg" alt="linkedin icon">
+           </div>
+   
+         </div>
+   
+         <div class="footer-section-wrapper-content-1">
+           <p class="Contact-us">Discover</p>
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Chicago</p>.
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Los Angeles</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Miami</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">New York</p>
+           </div>
+         </div>
+   
+         <div class="footer-section-wrapper-content-1">
+           <p class="Contact-us">Lists by Category</p>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Apartments</p>.
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Condos</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Houses</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Offices</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Retail</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Villas</p>
+           </div> 
+         
+         </div>
+   
+         <div class="footer-section-wrapper-content-1">
+           <p class="Contact-us">Lists by Category</p>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">About Us</p>.
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Terms&Conditions</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Support Center</p>
+           </div>
+   
+           <div class="wrapper-content-1-pin">
+             <p class="pin-text">Contact Us</p>
+           </div>
+         
+         </div>
+        </div>
+       </footer>
+</body>
+</html>

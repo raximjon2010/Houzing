@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Houzing</title>
+  </head>
+  <body>
+    <!-- ----------------------- Header Start ----------------------- -->
+    <header>
+      <div class="header__wrapper">
+        <img
+          src="./assets/icons/hamburger-menu.svg"
+          alt="hamburger-menu"
+          class="hamburger-menu"
+        />
+        <img src="./assets/icons/logo.svg" alt="logo" class="logo" />
+        <nav class="navigation">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <img src="./assets/icons/user.svg" alt="user" class="user" />
+        <div class="user-dropdown">
+          <ul class="user-dropdown__items">
+            <li class="user-dropdown__item">My Profile</li>
+            <li class="user-dropdown__item">My Properties</li>
+            <li class="user-dropdown__item">Favourites</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mobile-menu">
+        <img src="./assets/icons/close.svg" class="close-mobile-menu" />
+        <div class="mobile-menu__wrapper">
+          <nav class="mobile__navigation">
+            <ul class="mobile__nav-items">
+              <li class="mobile__nav-item">
+                <a href="#" class="mobile__nav-link">Home</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a href="#" class="mobile__nav-link">Properties</a>
+              </li>
+              <li class="mobile__nav-item">
+                <a href="#" class="mobile__nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="mobile__social-items">
+            <li class="mobile__social-item">
+              <img src="./assets/icons/facebook.svg" alt="facebook" />
+            </li>
+            <li class="mobile__social-item">
+              <img src="./assets/icons/twitter.svg" alt="twitter" />
+            </li>
+            <li class="mobile__social-item">
+              <img src="./assets/icons/instagram.svg" alt="instagram" />
+            </li>
+            <li class="mobile__social-item">
+              <img src="./assets/icons/linkedin.svg" alt="linkedin" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- ----------------------- Header End ----------------------- -->
+
+    <!-- ----------------------- Setting Section Start ----------------------- -->
+    <section class="settings-section">
+      <div class="settings-section__wrapper">
+        <div class="search-input__wrapper">
+          <img
+            src="./assets/icons/home.svg"
+            alt="home"
+            class="search-input__icon"
+          />
+          <input type="text" class="search-input" placeholder="Search..." />
+        </div>
+        <button class="settings-section__button">
+          <img
+            src="./assets/icons/status.svg"
+            alt="status"
+            class="status-icon"
+          />
+          Status
+        </button>
+        <button class="settings-section__button">
+          <img src="./assets/icons/price.svg" alt="status" class="price-icon" />
+          Price
+        </button>
+        <button class="settings-section__button">
+          <img
+            src="./assets/icons/setting-lines.svg"
+            alt="status"
+            class="settings-icon"
+          />
+          Advanced
+        </button>
+        <button class="settings-section__search-button">
+          <img
+            src="./assets/icons/search.svg"
+            alt="search"
+            class="search-icon"
+          />
+          Search
+        </button>
+      </div>
+    </section>
+    <!-- ----------------------- Setting Section End ----------------------- -->
+
+    <!-- ----------------------- Hero Section Start ----------------------- -->
+    <section class="hero-section">
+      <div class="hero-section__wrapper">
+        <h1 class="hero__title">Skyper Pool Partment</h1>
+        <p class="hero__description">112 Glenwood Ave Hyde Park, Boston, MA</p>
+        <div class="hero__icons">
+          <div class="hero__icon">
+            <img src="./assets/icons/bed.svg" alt="bed" />
+            <span>4 beds</span>
+          </div>
+          <div class="hero__icon">
+            <img src="./assets/icons/bath.svg" alt="bath" />
+            <span>5 baths</span>
+          </div>
+          <div class="hero__icon">
+            <img src="./assets/icons/car.svg" alt="garage" />
+            <span>1 garage</span>
+          </div>
+          <div class="hero__icon">
+            <img src="./assets/icons/ruler.svg" alt="ruler" />
+            <span>1200 Sq Ft</span>
+          </div>
+        </div>
+
+        <h4 class="hero__price">$5,250/mo</h4>
+        <button class="hero__btn">Read more</button>
+      </div>
+    </section>
+    <!-- ----------------------- Hero Section End ----------------------- -->
+
+    <!-- ----------------------- Recommended Section Start ----------------------- -->
+    <section class="recommended-section">
+      <div class="recommended-section__wrapper">
+      <div class="recomended--title">
+        <h3 class="title">Recommended</h3>
+      <p class="description">Quincy St, Brooklyn, NY, USA</p>
+        </div>
+        <br><br><br>
+        <div class="arrow__wrapper arrow__left">
+          <img src="./assets/icons/right-arrow.svg" alt="arrow" />
+        </div>
+        <div class="arrow__wrapper arrow__right">
+          <img src="./assets/icons/right-arrow.svg" alt="arrow" />
+        </div>
+        <div class="products-carousel">
+          <div class="products-carousel__wrapper">
+            <div class="product-card">
+              <div class="product-image__wrapper">
+                <button class="product-card__btn featured">Featured</button>
+                <button class="product-card__btn for-sale">For Sale</button>
+                <img
+                  src="./assets/images/apartment-1.png"
+                  alt="apartment"
+                  class="product-image"
+                />
+              </div>
+              <div class="product-content__wrapper">
+                <div class="recomended--title">
+               <p  class="title">New Apartment Nice Wiew</p>
+               <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                    </div>
+                <div class="hero__icons">
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bed1.svg" alt="bed" />
+                    <span>4 beds</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bath1.svg" alt="bath" />
+                    <span>5 baths</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/car1.svg" alt="garage" />
+                    <span>1 garage</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                    <span>1200 Sq Ft</span>
+                  </div>
+                </div>
+                <hr />
+                <div class="recomended-bottom-content">
+                  <p class="old"><del>$2,800/mo</del></p>
+                  <div class="new">
+                    <p class="bold-new"><del>$7,500/mo</del></p>
+                  <div class="recomended-bottom-img">
+                    <img src="./assets/icons/resize.svg" alt="resize" class="resize">
+                    <img src="./assets/icons/heart.svg" alt="heart" class="heart">
+                  </div>
+                  </div>
+                </div>
+                <!-- <hr> -->
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-image__wrapper">
+                <button class="product-card__btn featured">Featured</button>
+                <button class="product-card__btn for-sale">For Sale</button>
+                <img
+                  src="./assets/images/apartment-1.png"
+                  alt="apartment"
+                  class="product-image"
+                />
+              </div>
+              <div class="product-content__wrapper">
+                <div class="recomended--title">
+                  <p class="section-description">
+                    <p class="title">New Apartment Nice Wiew</p>
+                    <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                   </p>
+                    </div>
+                <div class="hero__icons">
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bed1.svg" alt="bed" />
+                    <span>4 beds</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bath1.svg" alt="bath" />
+                    <span>5 baths</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/car1.svg" alt="garage" />
+                    <span>1 garage</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                    <span>1200 Sq Ft</span>
+                  </div>
+                </div>
+                <hr />
+                <div class="recomended-bottom-content">
+                  <p class="old"><del>$2,800/mo</del></p>
+                  <div class="new">
+                    <p class="bold-new"><del>$7,500/mo</del></p>
+                  <div class="recomended-bottom-img">
+                    <img src="./assets/icons/resize.svg" alt="resize" class="resize">
+                    <img src="./assets/icons/heart.svg" alt="heart" class="heart">
+                  </div>
+                  </div>
+                </div>
+                <!-- <hr> -->
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-image__wrapper">
+                <button class="product-card__btn featured">Featured</button>
+                <button class="product-card__btn for-sale">For Sale</button>
+                <img
+                  src="./assets/images/apartment-1.png"
+                  alt="apartment"
+                  class="product-image"
+                />
+              </div>
+              <div class="product-content__wrapper">
+                <div class="recomended--title">
+                  
+                    <p class="title">New Apartment Nice Wiew</p>
+                    <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                   
+                    </div>      
+                <div class="hero__icons">
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bed1.svg" alt="bed" />
+                    <span>4 beds</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bath1.svg" alt="bath" />
+                    <span>5 baths</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/car1.svg" alt="garage" />
+                    <span>1 garage</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                    <span>1200 Sq Ft</span>
+                  </div>
+                </div>
+                <hr />
+                <div class="recomended-bottom-content">
+                  <p class="old"><del>$2,800/mo</del></p>
+                  <div class="new">
+                    <p class="bold-new"><del>$7,500/mo</del></p>
+                  <div class="recomended-bottom-img">
+                    <img src="./assets/icons/resize.svg" alt="resize" class="resize">
+                    <img src="./assets/icons/heart.svg" alt="heart" class="heart">
+                  </div>
+                  </div>
+                </div>
+                <!-- <hr> -->
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="product-image__wrapper">
+                <button class="product-card__btn featured">Featured</button>
+                <button class="product-card__btn for-sale">For Sale</button>
+                <img
+                  src="./assets/images/apartment-1.png"
+                  alt="apartment"
+                  class="product-image"
+                />
+              </div>
+              <div class="product-content__wrapper">
+                <div class="recomended--title">
+                    <p class="title">New Apartment Nice Wiew</p>
+                    <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                   
+                    </div>
+                <div class="hero__icons">
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bed1.svg" alt="bed" />
+                    <span>4 beds</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/bath1.svg" alt="bath" />
+                    <span>5 baths</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/car1.svg" alt="garage" />
+                    <span>1 garage</span>
+                  </div>
+                  <div class="hero__icon">
+                    <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                    <span>1200 Sq Ft</span>
+                  </div>
+                </div>
+                <hr />
+                <div class="recomended-bottom-content">
+                  <p class="old"><del>$2,800/mo</del></p>
+                  <div class="new">
+                    <p class="bold-new"><del>$7,500/mo</del></p>
+                  <div class="recomended-bottom-img">
+                    <img src="./assets/icons/resize.svg" alt="resize" class="resize">
+                    <img src="./assets/icons/heart.svg" alt="heart" class="heart">
+                  </div>
+                  </div>
+                </div>
+                <!-- <hr> -->
+                 <div class="product-content__wrapper1">
+                  <div class="recomended--title">
+                      <p class="title">New Apartment Nice Wiew</p>
+                      <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                     
+                      </div>
+                  <div class="hero__icons">
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bed1.svg" alt="bed" />
+                      <span>4 beds</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bath1.svg" alt="bath" />
+                      <span>5 baths</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/car1.svg" alt="garage" />
+                      <span>1 garage</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                      <span>1200 Sq Ft</span>
+                    </div>
+                  </div>
+                  <hr /> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------- Recommended Section End ----------------------- -->
+
+    <section class="recomended-2">
+      <h4 class="section-title">Why Choose Us?</h4>
+      <p class="section-description">
+        Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.
+      </p>
+      <div class="recomended-2-wrapper">
+         <div class="discord-content1">
+          <img src="./assets/icons/discord.svg" alt="discord" class="discord-content-img">
+      <div class="recomended-2-wrapper-text">
+           <p class="discord-content-title">
+              Trusted By Thousands
+           </p>
+           <p class="discord-content-description">
+               With over 1 million+ homes <br> for sale available on the <br> website, Trulia can match <br> you with a house you will <br> want to call home.
+          </p>
+      </div>
+         </div>
+         <br><br>
+
+         <div class="discord-content2">
+          <img src="./assets/icons/house.svg" alt="discord" class="house-content-img">
+      <div class="recomended-2-wrapper-text">
+           <p class="discord-content-title">
+            Wide Renge Of Properties
+           </p>
+           <p class="discord-content-description">
+            With over 1 million+ homes <br> for sale available on the <br> website, Trulia can match <br> you with a house you will <br> want to call home.
+          </p> 
+      </div>
+         </div>
+         <br><br>
+         <div class="discord-content3">
+          <img src="./assets/icons/calculator.svg" alt="discord" class="discord-content-img">
+      <div class="recomended-2-wrapper-text">
+           <p class="discord-content-title">
+            Financing Made Easy
+           </p>
+           <p class="discord-content-description">
+            With over 1 million+ homes <br> for sale available on the <br> website, Trulia can match <br> you with a house you will <br> want to call home.
+          </p> 
+      </div>
+         </div>
+         <br><br>
+         <div class="discord-content4">
+          <img src="./assets/icons/maps.svg" alt="discord" class="discord-content-img">
+      <div class="recomended-2-wrapper-text">
+           <p class="discord-content-title">
+            See Neighborhoods
+           </p>
+           <p class="discord-content-description">
+            With over 1 million+ homes <br> for sale available on the <br> website, Trulia can match <br> you with a house you will <br> want to call home.
+          </p> 
+      </div>
+         </div>
+         <br><br>
+      </div>
+    </section>
+<!-- /* -------------Category-section-------------------------- */ -->
+    <section class="Category-section">
+      <h4 class="section-title">Category</h4>
+      <p class="section-description" >
+        Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.
+      </p>
+
+        <div class="category-1-section-wrapper">
+          <div class="category-section-content">
+        <div class="category-image">
+         <img src="./assets/images/category-1.png" alt="house" class="category-home1">
+         
+         <div class="category-content-1-wrapper">
+          <img src="./assets/icons/home 1.svg" alt="house" class="category-1-wrapper-icon">
+          <br><br>
+          <p class="p1">House</p>
+        </div>
+        </div>          
+      </div>
+      
+      <div class="category-section-content">
+        <div class="category-image">
+         <img src="./assets/images/category-1.png" alt="house" class="category-home1">
+         
+         <div class="category-content-1-wrapper">
+          <img src="./assets/icons/apartment.svg" alt="apartment" class="category-1-wrapper-icon">
+          <br><br>
+          <p class="p2">Apartment</p>
+        </div>
+        </div>          
+      </div>
+
+      <div class="category-section-content">
+        <div class="category-image">
+         <img src="./assets/images/category-1.png" alt="house" class="category-home1">
+         
+         <div class="category-content-1-wrapper">
+          <img src="./assets/icons/business-and-trade.svg" alt="trade" class="category-1-wrapper-icon">
+          <br><br>
+          <p class="p3">Office</p>
+        </div>
+        </div>          
+      </div>
+
+      <div class="category-section-content">
+        <div class="category-image">
+         <img src="./assets/images/category-1.png" alt="house" class="category-home1">
+         
+         <div class="category-content-1-wrapper">
+          <img src="./assets/icons/villa.svg" alt="villa" class="category-1-wrapper-icon">
+          <br><br>
+          <p class="p4">Villa</p>
+        </div>
+        </div>          
+      </div>
+      </div>
+      <div class="scrol">
+        <img class="category-scoll" src="./assets/icons/bullet.svg" alt="bullet">
+      </div>
+    </section>
+    <br><br><br>
+
+
+    <section class="Vermot-farmHouse">
+      
+      <div class="Vermot-farmHouse-content">
+        
+        <div class="Vermot-farmHouse-content-title">
+          <h4>Vermont Farmhouse With Antique Jail Is <br> the Week's Most Popular Home</h4>
+
+        </div>
+
+        <div class="Vermot-farmHouse-content-title-mobile">
+          <h4>Vermont Farmhouse <br> With Antique Jail Is <br> the Week's Most <br> Popular Home</h4>
+
+        </div>
+
+        <div class="Vermot-farmHouse-content-button">
+          <button>Read More</button>
+        </div>
+
+       </div>
+    </section>
+<br><br><br>
+
+
+
+    <section>
+      <h4 class="section-title">Recent Properties for Rent</h4>
+      <p class="section-description">
+        Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.
+      </p>
+
+      <div class="recommended-section__wrapper">
+        <div class="recomended--title">
+        <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+          </div>
+          <div class="arrow__wrapper arrow__left">
+            <img src="./assets/icons/right-arrow.svg" alt="arrow" />
+          </div>
+          <div class="arrow__wrapper arrow__right">
+            <img src="./assets/icons/right-arrow.svg" alt="arrow" />
+          </div>
+          <div class="products-carousel">
+            <div class="products-carousel__wrapper">
+              <div class="product-card">
+                <div class="product-image__wrapper">
+                  <button class="product-card__btn featured">Featured</button>
+                  <button class="product-card__btn for-sale">For Sale</button>
+                  <img
+                    src="./assets/images/apartment-1.png"
+                    alt="apartment"
+                    class="product-image"
+                  />
+                </div>
+                <div class="product-content__wrapper">
+                  <div class="recomended--title">
+                 <p  class="title">New Apartment Nice Wiew</p>
+                 <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                      </div>
+                  <div class="hero__icons">
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bed1.svg" alt="bed" />
+                      <span>4 beds</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bath1.svg" alt="bath" />
+                      <span>5 baths</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/car1.svg" alt="garage" />
+                      <span>1 garage</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                      <span>1200 Sq Ft</span>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="recomended-bottom-content">
+                    <p class="old"><del>$2,800/mo</del></p>
+                    <div class="new">
+                      <p class="bold-new"><del>$7,500/mo</del></p>
+                    <div class="recomended-bottom-img">
+                      <img src="./assets/icons/resize.svg" alt="resize" class="resize">
+                      <img src="./assets/icons/heart.svg" alt="heart" class="heart">
+                    </div>
+                    </div>
+                  </div>
+                  <!-- <hr> -->
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image__wrapper">
+                  <button class="product-card__btn featured">Featured</button>
+                  <button class="product-card__btn for-sale">For Sale</button>
+                  <img
+                    src="./assets/images/apartment-1.png"
+                    alt="apartment"
+                    class="product-image"
+                  />
+                </div>
+                <div class="product-content__wrapper">
+                  <div class="recomended--title">
+                    <p class="section-description">
+                      <p class="title">New Apartment Nice Wiew</p>
+                      <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                     </p>
+                      </div>
+                  <div class="hero__icons">
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bed1.svg" alt="bed" />
+                      <span>4 beds</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bath1.svg" alt="bath" />
+                      <span>5 baths</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/car1.svg" alt="garage" />
+                      <span>1 garage</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                      <span>1200 Sq Ft</span>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="recomended-bottom-content">
+                    <p class="old"><del>$2,800/mo</del></p>
+                    <div class="new">
+                      <p class="bold-new"><del>$7,500/mo</del></p>
+                    <div class="recomended-bottom-img">
+                      <img src="./assets/icons/resize.svg" alt="resize" class="resize">
+                      <img src="./assets/icons/heart.svg" alt="heart" class="heart">
+                    </div>
+                    </div>
+                  </div>
+                  <!-- <hr> -->
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image__wrapper">
+                  <button class="product-card__btn featured">Featured</button>
+                  <button class="product-card__btn for-sale">For Sale</button>
+                  <img
+                    src="./assets/images/apartment-1.png"
+                    alt="apartment"
+                    class="product-image"
+                  />
+                </div>
+                <div class="product-content__wrapper">
+                  <div class="recomended--title">
+                    
+                      <p class="title">New Apartment Nice Wiew</p>
+                      <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                     
+                      </div>      
+                  <div class="hero__icons">
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bed1.svg" alt="bed" />
+                      <span>4 beds</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bath1.svg" alt="bath" />
+                      <span>5 baths</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/car1.svg" alt="garage" />
+                      <span>1 garage</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                      <span>1200 Sq Ft</span>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="recomended-bottom-content">
+                    <p class="old"><del>$2,800/mo</del></p>
+                    <div class="new">
+                      <p class="bold-new"><del>$7,500/mo</del></p>
+                    <div class="recomended-bottom-img">
+                      <img src="./assets/icons/resize.svg" alt="resize" class="resize">
+                      <img src="./assets/icons/heart.svg" alt="heart" class="heart">
+                    </div>
+                    </div>
+                  </div>
+                  <!-- <hr> -->
+                </div>
+              </div>
+              <div class="product-card">
+                <div class="product-image__wrapper">
+                  <button class="product-card__btn featured">Featured</button>
+                  <button class="product-card__btn for-sale">For Sale</button>
+                  <img
+                    src="./assets/images/apartment-1.png"
+                    alt="apartment"
+                    class="product-image"
+                  />
+                </div>
+                <div class="product-content__wrapper">
+                  <div class="recomended--title">
+                      <p class="title">New Apartment Nice Wiew</p>
+                      <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                     
+                      </div>
+                  <div class="hero__icons">
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bed1.svg" alt="bed" />
+                      <span>4 beds</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/bath1.svg" alt="bath" />
+                      <span>5 baths</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/car1.svg" alt="garage" />
+                      <span>1 garage</span>
+                    </div>
+                    <div class="hero__icon">
+                      <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                      <span>1200 Sq Ft</span>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="recomended-bottom-content">
+                    <p class="old"><del>$2,800/mo</del></p>
+                    <div class="new">
+                      <p class="bold-new"><del>$7,500/mo</del></p>
+                    <div class="recomended-bottom-img">
+                      <img src="./assets/icons/resize.svg" alt="resize" class="resize">
+                      <img src="./assets/icons/heart.svg" alt="heart" class="heart">
+                    </div>
+                    </div>
+                  </div>
+                  <!-- <hr> -->
+                   <div class="product-content__wrapper1">
+                    <div class="recomended--title">
+                        <p class="title">New Apartment Nice Wiew</p>
+                        <p class="descriptions">Quincy St, Brooklyn, NY, USA</p>
+                       
+                        </div>
+                    <div class="hero__icons">
+                      <div class="hero__icon">
+                        <img src="./assets/icons/bed1.svg" alt="bed" />
+                        <span>4 beds</span>
+                      </div>
+                      <div class="hero__icon">
+                        <img src="./assets/icons/bath1.svg" alt="bath" />
+                        <span>5 baths</span>
+                      </div>
+                      <div class="hero__icon">
+                        <img src="./assets/icons/car1.svg" alt="garage" />
+                        <span>1 garage</span>
+                      </div>
+                      <div class="hero__icon">
+                        <img src="./assets/icons/ruler1.svg" alt="ruler" />
+                        <span>1200 Sq Ft</span>
+                      </div>
+                    </div>
+                    <hr /> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </section>
+    <section class="Testimonials-section">
+      <h4 class="section-title">Testimonials</h4>
+      <p class="section-description">
+        Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.
+      </p>
+      <br><br><br>
+      <div class="Testimonials-wraper">
+        <img src="./assets/icons/next.svg" alt="nexr" class="Testimonials-arrow-left">
+        <div class="Testimonials-wraper-content">
+          <div class="Testimonials-wraper-content-text">
+         <p>“ I believe in lifelong learning and <br> Skola is a great place to learn from <br> experts. I've learned a lot and <br> recommend it to all my friends </p>
+          </div>
+          <div class="Testimonials-wraper-content-data">
+            <img class="content-data-profil" src="./assets/icons/Ellipse 11.svg" alt="Ellipse">
+            <p class="content-data-profil-name">Marvin McKinney</p>
+            <p class="content-data-profil-descriptiom">Designer</p>
+          </div>
+        </div>
+
+        <div class="Testimonials-wraper-content">
+          <div class="Testimonials-wraper-content-text">
+         <p>“ I believe in lifelong learning and <br> Skola is a great place to learn from <br> experts. I've learned a lot and <br> recommend it to all my friends </p>
+          </div>
+          <div class="Testimonials-wraper-content-data">
+            <img class="content-data-profil" src="./assets/icons/Ellipse 11.svg" alt="Ellipse">
+            <p class="content-data-profil-name">Marvin McKinney</p>
+            <p class="content-data-profil-descriptiom">Designer</p>
+          </div>
+        </div>
+
+        <div class="Testimonials-wraper-content">
+          <div class="Testimonials-wraper-content-text">
+         <p>“ I believe in lifelong learning and <br> Skola is a great place to learn from <br> experts. I've learned a lot and <br> recommend it to all my friends </p>
+          </div>
+          <div class="Testimonials-wraper-content-data">
+            <img class="content-data-profil" src="./assets/icons/Ellipse 11.svg" alt="Ellipse">
+            <p class="content-data-profil-name">Marvin McKinney</p>
+            <p class="content-data-profil-descriptiom">Designer</p>
+          </div>
+        </div>
+        <img src="./assets/icons/next.svg" alt="nexr" class="Testimonials-arrow-right">
+
+      </div>
+    </section>
+    <br><br><br>
+    <!-- -----------------footer--------------------------- -->
+    <footer class="footer-section">
+     <div class="footer-section-wrapper">
+      <div class="footer-section-wrapper-content-1">
+        <p class="Contact-us">Contact Us</p>
+        <div class="wrapper-content-1-pin">
+          <img src="./assets/icons/pin.svg" alt="pin" class="pin">
+          <p class="pin-text">329 Queensberry Street, North <br> Melbourne VIC 3051, Australia.</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <img src="./assets/icons/phone.svg" alt="phone" class="pin">
+          <p class="pin-text">123 456 7890</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <img src="./assets/icons/email 1.svg" alt="pin" class="pin">
+          <p class="pin-text">support@houzing.com</p>
+        </div>
+        <div class="wrapper-content-1-icon">
+          <img src="./assets/icons/facebook.svg" alt="facebook icon">
+          <img src="./assets/icons/twitter.svg" alt="twitter icon">
+          <img src="./assets/icons/instagram.svg" alt="facebook icon">
+          <img src="./assets/icons/linkedin.svg" alt="linkedin icon">
+        </div>
+
+      </div>
+
+      <div class="footer-section-wrapper-content-1">
+        <p class="Contact-us">Discover</p>
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Chicago</p>.
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Los Angeles</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Miami</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">New York</p>
+        </div>
+      </div>
+
+      <div class="footer-section-wrapper-content-1">
+        <p class="Contact-us">Lists by Category</p>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Apartments</p>.
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Condos</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Houses</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Offices</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Retail</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Villas</p>
+        </div> 
+      
+      </div>
+
+      <div class="footer-section-wrapper-content-1">
+        <p class="Contact-us">Lists by Category</p>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">About Us</p>.
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Terms&Conditions</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Support Center</p>
+        </div>
+
+        <div class="wrapper-content-1-pin">
+          <p class="pin-text">Contact Us</p>
+        </div>
+      
+      </div>
+     </div>
+    </footer>
+  </body>
+</html>
