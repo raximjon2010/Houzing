@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+:root {
+  /* Colors */
+  --primary: rgba(13, 38, 59, 1);
+  --white: rgba(255, 255, 255, 1);
+  --blue: rgba(0, 97, 223, 1);
+  --gray: rgba(105, 105, 105, 1);
+  --border-color: rgba(230, 233, 236, 1);
+
+  /* Fonts */
+  --font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: var(--primary);
+
+  margin-bottom: 10px;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--gray);
+}
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: var(--primary);
+  }
+  
+  .header__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    max-width: 1440px;
+    width: 100%;
+    height: 64px;
+    margin: auto;
+  
+    padding: 0px 5%;
+  }
+  
+  .user-dropdown {
+    display: none;
+  
+    position: absolute;
+  
+    padding: 20px 15px;
+    background-color: var(--white);
+    box-shadow: 0px -2px 15px -3px #000000;
+  }
+  
+  .user-dropdown__active {
+    display: block;
+    position: absolute;
+  
+    right: 5%;
+    top: 64px;
+    z-index: 998;
+  }
+  
+  .user-dropdown__items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .user-dropdown__item:hover {
+    background-color: rgb(231, 227, 227);
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .nav-items .nav-link {
+    color: var(--white);
+  }
+  
+  .nav-items .nav-link:hover {
+    color: rgb(181, 175, 175);
+  }
+  
+  .logo {
+    max-width: 117px;
+    max-height: 36px;
+  }
+  
+  .user {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .hamburger-menu {
+    display: none;
+  }
+  
+  /* Mobile menu */
+  .mobile-menu {
+    position: absolute;
+    top: 0px;
+    transform: translateX(-100vw);
+    transition: transform 1s ease;
+    z-index: 999;
+  
+    padding: 20px;
+  }
+  
+  .mobile-menu-active {
+    transform: translateX(0);
+  }
+  
+  .mobile-menu__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    height: 100%;
+  }
+  
+  .mobile__navigation .mobile__nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .mobile__navigation .mobile__nav-items .mobile__nav-link {
+    color: var(--primary);
+  }
+  
+  .mobile__social-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .mobile__social-item {
+    width: 36px;
+    height: 36px;
+    border-radius: 3px;
+    background-color: var(--primary);
+    opacity: 20%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mobile__social-item:hover {
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .nav-items {
+      gap: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .nav-items {
+      gap: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 776px) {
+    .navigation {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  
+    .logo {
+      max-width: 100px;
+    }
+  
+    .mobile-menu {
+      width: 100%;
+      height: 100vh;
+      background-color: var(--white);
+    }
+  }
+  /* ========================Propeerts============== */
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+  }
+  .My_properts{
+    width: 1180px;
+    height: 487px;
+    border: 1px solid var(--border-color);
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+  }
+  .container_wrappper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+  }
+  .name_search{
+    display: flex;
+    gap: 500px;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+  }
+  .name_search h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -2%;
+  }
+  .name_search input {
+    width: 200px;
+    height: 26px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--gray);
+  }
+  .name_search input::placeholder{
+    color: var(--gray);
+  }
+  .MyProperts_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    left: 25px;
+    top: 30px;
+  }
+  .Myproperties_shakl1{
+    display: flex;
+    gap: 15px;
+  }
+  .Myproperties_shakl1_1{
+    width: 113px;
+    height: 113px;
+    background-color: #C4C4C4;
+  }
+  .titleMy p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 28px;
+    color: #0D263B;
+    font-weight: 600;
+  }
+  .Myproperties_shakl1_name .p1{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .Myproperties_shakl1_name .p2{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--gray);
+  }
+  .Myproperties_shakl1_name .p3{
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--gray);
+    position: relative;
+    top: 10px;
+  }
+  .Myproperties_shakl1_name .p4{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    position: relative;
+    top: 10px;
+  }
+  .Myproperties_shakl1_name div {
+    display: flex;
+    gap: 10px;
+  }
+  .Myproperties_shakl1_name div button {
+    background-color: black;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 12.7px;
+    font-family: Cerebri Sans;
+    color: white;
+  }
+  .Myproperties_shakl1_1 div button {
+    background-color: blue;
+    border-radius: 5px;
+
+    font-family: Cerebri Sans;
+    font-weight: 400;
+    color: white;
+  }
+  .Date_Published{
+    position: absolute;
+  }
